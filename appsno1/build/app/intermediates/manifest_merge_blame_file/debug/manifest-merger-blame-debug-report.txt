@@ -1,0 +1,165 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.nahidhk.myapps"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/nahidhk/app Dev/myapps/appsno1/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/home/nahidhk/app Dev/myapps/appsno1/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <!--
+17     Required to query activities that can process text, see:
+18         https://developer.android.com/training/package-visibility and
+19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+20
+21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+22    -->
+23    <queries>
+23-->/home/nahidhk/app Dev/myapps/appsno1/android/app/src/main/AndroidManifest.xml:39:5-44:15
+24        <intent>
+24-->/home/nahidhk/app Dev/myapps/appsno1/android/app/src/main/AndroidManifest.xml:40:9-43:18
+25            <action android:name="android.intent.action.PROCESS_TEXT" />
+25-->/home/nahidhk/app Dev/myapps/appsno1/android/app/src/main/AndroidManifest.xml:41:13-72
+25-->/home/nahidhk/app Dev/myapps/appsno1/android/app/src/main/AndroidManifest.xml:41:21-70
+26
+27            <data android:mimeType="text/plain" />
+27-->/home/nahidhk/app Dev/myapps/appsno1/android/app/src/main/AndroidManifest.xml:42:13-50
+27-->/home/nahidhk/app Dev/myapps/appsno1/android/app/src/main/AndroidManifest.xml:42:19-48
+28        </intent>
+29    </queries>
+30
+31    <permission
+31-->[androidx.core:core:1.13.1] /home/nahidhk/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+32        android:name="app.nahidhk.myapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.13.1] /home/nahidhk/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.13.1] /home/nahidhk/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="app.nahidhk.myapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.13.1] /home/nahidhk/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.1] /home/nahidhk/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+36
+37    <application
+38        android:name="android.app.Application"
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.13.1] /home/nahidhk/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+42        android:label="myapps" >
+43        <activity
+44            android:name="app.nahidhk.myapps.MainActivity"
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46            android:exported="true"
+47            android:hardwareAccelerated="true"
+48            android:launchMode="singleTop"
+49            android:taskAffinity=""
+50            android:theme="@style/LaunchTheme"
+51            android:windowSoftInputMode="adjustResize" >
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+60                android:name="io.flutter.embedding.android.NormalTheme"
+61                android:resource="@style/NormalTheme" />
+62
+63            <intent-filter>
+64                <action android:name="android.intent.action.MAIN" />
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+74            android:name="flutterEmbedding"
+75            android:value="2" />
+76
+77        <uses-library
+77-->[androidx.window:window:1.2.0] /home/nahidhk/.gradle/caches/transforms-3/d47b1192960df52846144d82ac9e1d6f/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+78            android:name="androidx.window.extensions"
+78-->[androidx.window:window:1.2.0] /home/nahidhk/.gradle/caches/transforms-3/d47b1192960df52846144d82ac9e1d6f/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+79            android:required="false" />
+79-->[androidx.window:window:1.2.0] /home/nahidhk/.gradle/caches/transforms-3/d47b1192960df52846144d82ac9e1d6f/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+80        <uses-library
+80-->[androidx.window:window:1.2.0] /home/nahidhk/.gradle/caches/transforms-3/d47b1192960df52846144d82ac9e1d6f/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+81            android:name="androidx.window.sidecar"
+81-->[androidx.window:window:1.2.0] /home/nahidhk/.gradle/caches/transforms-3/d47b1192960df52846144d82ac9e1d6f/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+82            android:required="false" />
+82-->[androidx.window:window:1.2.0] /home/nahidhk/.gradle/caches/transforms-3/d47b1192960df52846144d82ac9e1d6f/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+83
+84        <provider
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nahidhk/.gradle/caches/transforms-3/d674cd90e13def17f77b3f8010d35e09/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nahidhk/.gradle/caches/transforms-3/d674cd90e13def17f77b3f8010d35e09/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+86            android:authorities="app.nahidhk.myapps.androidx-startup"
+86-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nahidhk/.gradle/caches/transforms-3/d674cd90e13def17f77b3f8010d35e09/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nahidhk/.gradle/caches/transforms-3/d674cd90e13def17f77b3f8010d35e09/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nahidhk/.gradle/caches/transforms-3/d674cd90e13def17f77b3f8010d35e09/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nahidhk/.gradle/caches/transforms-3/d674cd90e13def17f77b3f8010d35e09/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nahidhk/.gradle/caches/transforms-3/d674cd90e13def17f77b3f8010d35e09/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+93                android:value="androidx.startup" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+94        </provider>
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>

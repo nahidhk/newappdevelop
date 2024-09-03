@@ -1,0 +1,28 @@
+app.nahidhk.myapps.app-lifecycle-livedata-2.7.0-0 /home/nahidhk/.gradle/caches/transforms-3/0313b4099446464f98d0df0606c58c95/transformed/lifecycle-livedata-2.7.0/res
+app.nahidhk.myapps.app-jetified-core-1.0.0-1 /home/nahidhk/.gradle/caches/transforms-3/052a56087b23de77791a629d260284c0/transformed/jetified-core-1.0.0/res
+app.nahidhk.myapps.app-jetified-profileinstaller-1.3.1-2 /home/nahidhk/.gradle/caches/transforms-3/166e5df34c1c015ef6ddeae137513a3f/transformed/jetified-profileinstaller-1.3.1/res
+app.nahidhk.myapps.app-lifecycle-viewmodel-2.7.0-3 /home/nahidhk/.gradle/caches/transforms-3/2e94595ca22e3aadcdebdc547820608c/transformed/lifecycle-viewmodel-2.7.0/res
+app.nahidhk.myapps.app-jetified-lifecycle-livedata-core-ktx-2.7.0-4 /home/nahidhk/.gradle/caches/transforms-3/455c428e62a6dd75da98c7152f7af462/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+app.nahidhk.myapps.app-jetified-activity-1.8.1-5 /home/nahidhk/.gradle/caches/transforms-3/4b07bb875192e8c29c9b76677237c5c8/transformed/jetified-activity-1.8.1/res
+app.nahidhk.myapps.app-jetified-annotation-experimental-1.4.0-6 /home/nahidhk/.gradle/caches/transforms-3/4d10c72f31024081b56fc5037069e011/transformed/jetified-annotation-experimental-1.4.0/res
+app.nahidhk.myapps.app-jetified-startup-runtime-1.1.1-7 /home/nahidhk/.gradle/caches/transforms-3/4ee1d1c3643bd699aea17aa2adbcb7ee/transformed/jetified-startup-runtime-1.1.1/res
+app.nahidhk.myapps.app-jetified-window-java-1.2.0-8 /home/nahidhk/.gradle/caches/transforms-3/5292c4072ce6d2ab49b0e25db445cdfe/transformed/jetified-window-java-1.2.0/res
+app.nahidhk.myapps.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-9 /home/nahidhk/.gradle/caches/transforms-3/6e7c2231d2ac9b957ecfe9d432e59ed2/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+app.nahidhk.myapps.app-core-runtime-2.2.0-10 /home/nahidhk/.gradle/caches/transforms-3/73778f1c206428361b6eebbb974be913/transformed/core-runtime-2.2.0/res
+app.nahidhk.myapps.app-jetified-core-ktx-1.13.1-11 /home/nahidhk/.gradle/caches/transforms-3/740c93e8e1043856a6b7cb15a7eaa9f0/transformed/jetified-core-ktx-1.13.1/res
+app.nahidhk.myapps.app-lifecycle-runtime-2.7.0-12 /home/nahidhk/.gradle/caches/transforms-3/98474e5913354eaede53aaa879a4dd8b/transformed/lifecycle-runtime-2.7.0/res
+app.nahidhk.myapps.app-jetified-savedstate-1.2.1-13 /home/nahidhk/.gradle/caches/transforms-3/aadceac8ee0316c01a9163bad1a5e0ed/transformed/jetified-savedstate-1.2.1/res
+app.nahidhk.myapps.app-fragment-1.7.1-14 /home/nahidhk/.gradle/caches/transforms-3/c683cde5b1f5377825fe27da54e1b718/transformed/fragment-1.7.1/res
+app.nahidhk.myapps.app-lifecycle-livedata-core-2.7.0-15 /home/nahidhk/.gradle/caches/transforms-3/ce9e6112a0f9c5113844bb49506e7a06/transformed/lifecycle-livedata-core-2.7.0/res
+app.nahidhk.myapps.app-jetified-window-1.2.0-16 /home/nahidhk/.gradle/caches/transforms-3/d47b1192960df52846144d82ac9e1d6f/transformed/jetified-window-1.2.0/res
+app.nahidhk.myapps.app-jetified-lifecycle-process-2.7.0-17 /home/nahidhk/.gradle/caches/transforms-3/d674cd90e13def17f77b3f8010d35e09/transformed/jetified-lifecycle-process-2.7.0/res
+app.nahidhk.myapps.app-jetified-tracing-1.2.0-18 /home/nahidhk/.gradle/caches/transforms-3/e67a2d3f5080e81a9ca4ada76d6846fb/transformed/jetified-tracing-1.2.0/res
+app.nahidhk.myapps.app-core-1.13.1-19 /home/nahidhk/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/res
+app.nahidhk.myapps.app-debug-20 /home/nahidhk/app Dev/myapps/appsno1/android/app/src/debug/res
+app.nahidhk.myapps.app-main-21 /home/nahidhk/app Dev/myapps/appsno1/android/app/src/main/res
+app.nahidhk.myapps.app-pngs-22 /home/nahidhk/app Dev/myapps/appsno1/build/app/generated/res/pngs/debug
+app.nahidhk.myapps.app-resValues-23 /home/nahidhk/app Dev/myapps/appsno1/build/app/generated/res/resValues/debug
+app.nahidhk.myapps.app-rs-24 /home/nahidhk/app Dev/myapps/appsno1/build/app/generated/res/rs/debug
+app.nahidhk.myapps.app-mergeDebugResources-25 /home/nahidhk/app Dev/myapps/appsno1/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+app.nahidhk.myapps.app-mergeDebugResources-26 /home/nahidhk/app Dev/myapps/appsno1/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+app.nahidhk.myapps.app-merged_res-27 /home/nahidhk/app Dev/myapps/appsno1/build/app/intermediates/merged_res/debug
